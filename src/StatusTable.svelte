@@ -2,7 +2,6 @@
   export let battery;
 
   const getReadableTime = (time) => {
-    console.log(time);
     if (time === Number.POSITIVE_INFINITY) {
       return 'Unknown';
     }
