@@ -1,0 +1,25 @@
+{
+  "name": "battery-status-api-demo",
+  "version": "1.0.0",
+  "description": "Demo application using the Battery Status API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "keywords": [
+    "web-demo",
+    "battery-status-api"
+  ],
+  "author": "Arnelle Balane <arnellebalane@gmail.com> (https://arnellebalane.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.5",
+    "prettier": "^2.7.1",
+    "prettier-plugin-svelte": "^2.7.0",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "svelte": "^3.50.0"
+  }
+}
