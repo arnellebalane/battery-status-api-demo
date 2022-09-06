@@ -6,7 +6,7 @@
       return 'Unknown';
     }
     const hours = Math.floor(time / 60 / 60);
-    const minutes = (time / 60) % 60;
+    const minutes = Math.floor((time / 60) % 60);
     const seconds = time % 60;
     return [hours ? `${hours}h` : null, `${minutes}m`, `${seconds}s`].filter(Boolean).join(' ');
   };
